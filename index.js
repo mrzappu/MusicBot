@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Discord Music Bot is running!');
+  res.send('Discord INFINITY MUSIC is running!');
 });
 
 app.listen(port, '0.0.0.0', () => {
@@ -38,7 +38,7 @@ const manager = new Manager({
   },
   defaultSearchPlatform: 'youtube',
   autoPlay: true,
-  clientName: `${client.user?.username || 'Music Bot'}`,
+  clientName: `${client.user?.username || 'INFINITY MUSIC'}`,
   plugins: []
 });
 
