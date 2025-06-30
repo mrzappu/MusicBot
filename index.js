@@ -602,7 +602,7 @@ client.on('interactionCreate', async (interaction) => {
       .setColor('#FF0000')
       .setThumbnail(client.user.displayAvatarURL())
       .setFooter({ 
-        text: `Made By Unknownz • Requested by ${interaction.user.tag}`,
+        text: `Made By Rick_Grimes • Requested by ${interaction.user.tag}`,
         iconURL: interaction.user.displayAvatarURL()
       })
       .setTimestamp();
