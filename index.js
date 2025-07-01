@@ -138,8 +138,8 @@ client.once('ready', async () => {
   console.log(`Logged in as ${client.user.tag}`);
   manager.init(client.user.id);
 
-  client.user.setActivity('Beta Testing', { type: ActivityType.Listening },
-  client.user.setActivity('INFINITY', { type: ActivityType.Playing });
+  client.user.setActivity('INFINITY MUSIC', { type: ActivityType.Listening },
+  client.user.setActivity('Beta Testing', { type: ActivityType.Playing });
 
   try {
     console.log('Refreshing slash commands...');
