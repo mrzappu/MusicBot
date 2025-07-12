@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Discord Music Bot is running!');
+  res.send('Discord infinity music is running!');
 });
 
 app.listen(port, '0.0.0.0', () => {
@@ -138,7 +138,7 @@ client.once('ready', async () => {
   console.log(`Logged in as ${client.user.tag}`);
   manager.init(client.user.id);
 
-  client.user.setActivity('/help | https://github.com/Unknownzop/MusicBot', { type: ActivityType.Listening });
+  client.user.setActivity('INFINITY MUSIC', { type: ActivityType.Listening });
 
   try {
     console.log('Refreshing slash commands...');
@@ -602,7 +602,7 @@ client.on('interactionCreate', async (interaction) => {
       .setColor('#FF0000')
       .setThumbnail(client.user.displayAvatarURL())
       .setFooter({ 
-        text: `Made By Unknownz • Requested by ${interaction.user.tag}`,
+        text: `Made By Adithyan • Requested by ${interaction.user.tag}`,
         iconURL: interaction.user.displayAvatarURL()
       })
       .setTimestamp();
